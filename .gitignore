@@ -1,0 +1,7 @@
+# Compiled executables
+server
+client
+mallory_proxy
+*.o
+*.out
+.DS_Store
