@@ -320,12 +320,19 @@ int main(int argc, char* argv[]) {
     std::string server_dh_pub = dh_pub_line.substr(7);
 
     std::string pki_err;
-    if (!validate_certificate(cert_pem, ca_file, expected_cn, pki_err) ||
-        !rsa_verify_signature(client_nonce + server_dh_pub, cert_pem, server_sig_hex)) {
-        std::cerr << "[PKI ERROR] Authentication failed!" << std::endl;
+    if (!validate_certificate(cert_pem, ca_file, expected_cn, pki_err)) {
+        std::cerr << "\n\033[1;31m[PKI VALIDATION FAILED] " << pki_err << "\033[0m" << std::endl;
+        std::cerr << "\033[1;31m[ABORT] Terminating connection.\033[0m\n" << std::endl;
         close(g_sock);
         return 1;
     }
+
+    if (!rsa_verify_signature(client_nonce + server_dh_pub, cert_pem, server_sig_hex)) {
+        std::cerr << "\n\033[1;31m[PoP VERIFICATION FAILED] Server could not prove possession of private key!\033[0m" << std::endl;
+        close(g_sock);
+        return 1;
+    }
+    std::cout << "\033[1;32m[PKI] Server authenticated via PKI & Proof-of-Possession!\033[0m" << std::endl;
 
     // 2. Transport Link Key Establishment
     DHExchange link_dh;
