@@ -72,22 +72,6 @@ The system is deployed and verified across four separate virtual machines (Ubunt
 
 ---
 
-## 🔐 Cryptographic Architecture \& Rules Compliance
-
-| Constraint / Feature | Implementation Details | Compliance |
-| :--- | :--- | :---: |
-| **No `<openssl/ssl.h>`** | Never included or linked. All handshakes and framing are custom-built. | ✅ **100%** |
-| **No `<openssl/dh.h>`** | Manual modular exponentiation ($A = g^a \bmod p$, $s = B^a \bmod p$) via `BN_mod_exp()`. | ✅ **100%** |
-| **DH MODP Group** | Standardized **RFC 3526 Group 14** (2048-bit prime, generator $g = 2$). | ✅ **100%** |
-| **Key Derivation (KDF)** | SHA-256 used as a randomness extractor on the raw DH secret: $K_{\text{AES}} = \text{SHA256}(s_{\text{raw}})$. | ✅ **100%** |
-| **Authenticated Encryption** | AES-256-GCM via `<openssl/evp.h>` with 12-byte random IVs (`RAND_bytes`) and 16-byte GMAC tags. | ✅ **100%** |
-| **Server PKI Validation** | X.509 verification (`<openssl/x509.h>`) checking CA signature chain, validity dates, and $\text{CN} == \texttt{chat.server.local}$. | ✅ **100%** |
-| **Proof-of-Possession** | Server signs dynamic client challenge nonce $(N_{\text{client}} \mathbin{\Vert} \text{DH\_Pub})$ with RSA private key (`EVP_DigestSign`). | ✅ **100%** |
-| **End-to-End Encryption** | Direct client-to-client DH over wire tags (`__E2E_INIT__`, `__E2E_ACK__`, `__E2E_MSG__`) with double-layered encryption. | ✅ **100%** |
-| **Forward Secrecy** | 60-second periodic rekey timer, memory zeroization (`OPENSSL_cleanse`), and lexicographical tie-breaking. | ✅ **100%** |
-
----
-
 ## 🚀 Quick Execution Guide
 
 ### Phase 1: Baseline Plaintext Chat
