@@ -438,7 +438,7 @@ We verified three consecutive key rotations over live sessions.
     \begin{minipage}{0.48\textwidth}
         \centering
         \includegraphics[width=\linewidth]{phase5_alice_rotations.png}
-        \caption{Phase 5: Alice log showing 2 rotations.}
+        \caption{Phase 5: Alice log showing 3 rotations.}
         \label{fig:phase5_alice}
     \end{minipage}\hfill
     \begin{minipage}{0.48\textwidth}
@@ -454,6 +454,11 @@ As evidenced in Figures \ref{fig:phase5_server}, \ref{fig:phase5_alice}, and \re
 \section{Conclusion}
 Through the iterative development of Phases 1 to 5, we have systematically engineered a robust, modern cryptographic communication system. Starting from a vulnerable plaintext baseline, we incorporated mathematical key exchange, authenticated symmetric encryption, rigorous PKI validation, zero-knowledge blind relaying, and ratcheted forward secrecy, validating each security guarantee through empirical network captures and adversarial testing.
 
+\section{References}
+\begin{enumerate}[label={[\arabic*]}]
+    \item \textbf{Source Code Repository:} CS6008 Secure Chat Application, GitHub: \url{https://github.com/kittu149/Chat_Application}
+\end{enumerate}
+
 \appendix
 \section{Generative AI Usage \& Prompt Log}
 In accordance with assignment policy, LLM assistance was utilized for boilerplate generation and conceptual planning. The detailed prompt sequence is documented below:
@@ -463,6 +468,8 @@ In accordance with assignment policy, LLM assistance was utilized for boilerplat
     \item \textit{"How to perform X.509 certificate verification against a Root CA store in C++ using OpenSSL low-level functions without using SSL\_CTX?"}
     \item \textit{"Create readme.md files for each phase's folder explaining the respective folder code structure and the basic commands used for getting results."}
     \item \textit{"Using the Screenshots uploaded, create a template for a latex file for the report."}
+    \item \textit{"Explain how the Diffie Hellman key exchange algorithm works and also how the PKI setup is done."}
+    \item \textit{"Explain the difference between AES and AES-GCM."}
 \end{enumerate}
 
 \end{document}

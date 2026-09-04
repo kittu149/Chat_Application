@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.12)  2 SEP 2026 23:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.12)  4 SEP 2026 19:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -491,7 +491,7 @@ LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
 (Font)              for symbol `textbackslash' on input line 88.
 
-<images/phase1_server_log.png, id=120, 652.4375pt x 408.52625pt>
+<images/phase1_server_log.png, id=124, 652.4375pt x 408.52625pt>
 File: images/phase1_server_log.png Graphic file (type png)
 <use images/phase1_server_log.png>
 Package pdftex.def Info: images/phase1_server_log.png  used on input line 101.
@@ -504,12 +504,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has 
                                                   \__shipout_drop_firstpage_...
 l.105 
       {/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-<images/phase1_wireshark_packets.png, id=134, 1284.8pt x 835.12pt>
+<images/phase1_wireshark_packets.png, id=138, 1284.8pt x 835.12pt>
 File: images/phase1_wireshark_packets.png Graphic file (type png)
 <use images/phase1_wireshark_packets.png>
 Package pdftex.def Info: images/phase1_wireshark_packets.png  used on input line 110.
 (pdftex.def)             Requested size: 231.29816pt x 150.34059pt.
-<images/phase1_wireshark_tcp_stream.png, id=135, 1284.8pt x 835.12pt>
+<images/phase1_wireshark_tcp_stream.png, id=139, 1284.8pt x 835.12pt>
 File: images/phase1_wireshark_tcp_stream.png Graphic file (type png)
 <use images/phase1_wireshark_tcp_stream.png>
 Package pdftex.def Info: images/phase1_wireshark_tcp_stream.png  used on input line 116.
@@ -540,22 +540,22 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has
                                                   \__shipout_drop_firstpage_...
 l.137 
        <./images/phase1_server_log.png> <./images/phase1_wireshark_packets.png> <./images/phase1_wireshark_tcp_stream.png>]
-<images/phase2_alice_normal.png, id=154, 653.44125pt x 528.97626pt>
+<images/phase2_alice_normal.png, id=158, 653.44125pt x 528.97626pt>
 File: images/phase2_alice_normal.png Graphic file (type png)
 <use images/phase2_alice_normal.png>
 Package pdftex.def Info: images/phase2_alice_normal.png  used on input line 156.
 (pdftex.def)             Requested size: 231.29816pt x 187.23499pt.
-<images/phase2_bob_normal.png, id=155, 650.43pt x 528.97626pt>
+<images/phase2_bob_normal.png, id=159, 650.43pt x 528.97626pt>
 File: images/phase2_bob_normal.png Graphic file (type png)
 <use images/phase2_bob_normal.png>
 Package pdftex.def Info: images/phase2_bob_normal.png  used on input line 162.
 (pdftex.def)             Requested size: 231.29816pt x 188.1067pt.
-<images/phase2_server_normal.png, id=156, 653.44125pt x 529.98pt>
+<images/phase2_server_normal.png, id=160, 653.44125pt x 529.98pt>
 File: images/phase2_server_normal.png Graphic file (type png)
 <use images/phase2_server_normal.png>
 Package pdftex.def Info: images/phase2_server_normal.png  used on input line 172.
 (pdftex.def)             Requested size: 231.29816pt x 187.59026pt.
-<images/phase2_wireshark_ciphertext.png, id=157, 1284.8pt x 835.12pt>
+<images/phase2_wireshark_ciphertext.png, id=161, 1284.8pt x 835.12pt>
 File: images/phase2_wireshark_ciphertext.png Graphic file (type png)
 <use images/phase2_wireshark_ciphertext.png>
 Package pdftex.def Info: images/phase2_wireshark_ciphertext.png  used on input line 178.
@@ -571,12 +571,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has
                                                   \__shipout_drop_firstpage_...
 l.183 
        <./images/phase2_alice_normal.png> <./images/phase2_bob_normal.png>]
-<images/phase2_tamper_alice_client.png, id=173, 651.43375pt x 525.965pt>
+<images/phase2_tamper_alice_client.png, id=177, 651.43375pt x 525.965pt>
 File: images/phase2_tamper_alice_client.png Graphic file (type png)
 <use images/phase2_tamper_alice_client.png>
 Package pdftex.def Info: images/phase2_tamper_alice_client.png  used on input line 191.
 (pdftex.def)             Requested size: 231.29816pt x 186.74696pt.
-<images/phase2_tamper_server_alert.png, id=174, 654.445pt x 526.96875pt>
+<images/phase2_tamper_server_alert.png, id=178, 654.445pt x 526.96875pt>
 File: images/phase2_tamper_server_alert.png Graphic file (type png)
 <use images/phase2_tamper_server_alert.png>
 Package pdftex.def Info: images/phase2_tamper_server_alert.png  used on input line 197.
@@ -602,22 +602,22 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) has
                                                   \__shipout_drop_firstpage_...
 l.212 \end{enumerate}
                       <./images/phase2_server_normal.png> <./images/phase2_wireshark_ciphertext.png> <./images/phase2_tamper_alice_client.png> <./images/phase2_tamper_server_alert.png>]
-<images/phase2_mitm_alice_client.png, id=190, 653.44125pt x 530.98375pt>
+<images/phase2_mitm_alice_client.png, id=194, 653.44125pt x 530.98375pt>
 File: images/phase2_mitm_alice_client.png Graphic file (type png)
 <use images/phase2_mitm_alice_client.png>
 Package pdftex.def Info: images/phase2_mitm_alice_client.png  used on input line 219.
 (pdftex.def)             Requested size: 231.29816pt x 187.94554pt.
-<images/phase2_mitm_bob_client.png, id=191, 656.4525pt x 528.97626pt>
+<images/phase2_mitm_bob_client.png, id=195, 656.4525pt x 528.97626pt>
 File: images/phase2_mitm_bob_client.png Graphic file (type png)
 <use images/phase2_mitm_bob_client.png>
 Package pdftex.def Info: images/phase2_mitm_bob_client.png  used on input line 225.
 (pdftex.def)             Requested size: 231.29816pt x 186.3794pt.
-<images/phase2_mitm_server.png, id=192, 655.44875pt x 528.97626pt>
+<images/phase2_mitm_server.png, id=196, 655.44875pt x 528.97626pt>
 File: images/phase2_mitm_server.png Graphic file (type png)
 <use images/phase2_mitm_server.png>
 Package pdftex.def Info: images/phase2_mitm_server.png  used on input line 235.
 (pdftex.def)             Requested size: 231.29816pt x 186.66997pt.
-<images/phase2_mitm_mallory_intercept.png, id=193, 656.4525pt x 531.9875pt>
+<images/phase2_mitm_mallory_intercept.png, id=197, 656.4525pt x 531.9875pt>
 File: images/phase2_mitm_mallory_intercept.png Graphic file (type png)
 <use images/phase2_mitm_mallory_intercept.png>
 Package pdftex.def Info: images/phase2_mitm_mallory_intercept.png  used on input line 241.
@@ -643,7 +643,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.13}) ha
                                                   \__shipout_drop_firstpage_...
 l.259     \item \textbf
                        {Root CA:} A self-signed Root Certificate Authority (... <./images/phase2_mitm_alice_client.png> <./images/phase2_mitm_bob_client.png> <./images/phase2_mitm_server.png> <./images/phase2_mitm_mallory_intercept.png>]
-<images/phase3_openssl_verify_cli.png, id=207, 581.17125pt x 421.575pt>
+<images/phase3_openssl_verify_cli.png, id=211, 581.17125pt x 421.575pt>
 File: images/phase3_openssl_verify_cli.png Graphic file (type png)
 <use images/phase3_openssl_verify_cli.png>
 Package pdftex.def Info: images/phase3_openssl_verify_cli.png  used on input line 265.
@@ -653,12 +653,12 @@ Overfull \hbox (2.31412pt too wide) in paragraph at lines 285--286
 []\OT1/cmr/m/n/10.95 (-20) Client ex-tracts the pub-lic key from \OT1/cmtt/m/n/10.95 server.crt \OT1/cmr/m/n/10.95 (-20) and ver-i-fies the sig-na-ture us-ing \OT1/cmtt/m/n/10.95 EVP[]DigestVerify\OT1/cmr/m/n/10.95 (-20) . 
  []
 
-<images/phase3_legitimate_client.png, id=208, 653.44125pt x 530.98375pt>
+<images/phase3_legitimate_client.png, id=212, 653.44125pt x 530.98375pt>
 File: images/phase3_legitimate_client.png Graphic file (type png)
 <use images/phase3_legitimate_client.png>
 Package pdftex.def Info: images/phase3_legitimate_client.png  used on input line 293.
 (pdftex.def)             Requested size: 231.29816pt x 187.94554pt.
-<images/phase3_legitimate_server.png, id=209, 657.45625pt x 529.98pt>
+<images/phase3_legitimate_server.png, id=213, 657.45625pt x 529.98pt>
 File: images/phase3_legitimate_server.png Graphic file (type png)
 <use images/phase3_legitimate_server.png>
 Package pdftex.def Info: images/phase3_legitimate_server.png  used on input line 299.
@@ -669,22 +669,22 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.14}) ha
                                                   \__shipout_drop_firstpage_...
 l.304 
        <./images/phase3_openssl_verify_cli.png>]
-<images/phase3_untrusted_cert_client_fail.png, id=226, 654.445pt x 532.99126pt>
+<images/phase3_untrusted_cert_client_fail.png, id=230, 654.445pt x 532.99126pt>
 File: images/phase3_untrusted_cert_client_fail.png Graphic file (type png)
 <use images/phase3_untrusted_cert_client_fail.png>
 Package pdftex.def Info: images/phase3_untrusted_cert_client_fail.png  used on input line 315.
 (pdftex.def)             Requested size: 231.29816pt x 188.37148pt.
-<images/phase3_untrusted_cert_mallory_fail.png, id=227, 654.445pt x 533.995pt>
+<images/phase3_untrusted_cert_mallory_fail.png, id=231, 654.445pt x 533.995pt>
 File: images/phase3_untrusted_cert_mallory_fail.png Graphic file (type png)
 <use images/phase3_untrusted_cert_mallory_fail.png>
 Package pdftex.def Info: images/phase3_untrusted_cert_mallory_fail.png  used on input line 321.
 (pdftex.def)             Requested size: 231.29816pt x 188.72623pt.
-<images/phase3_stolen_cert_pop_bypass_client_fail.png, id=230, 658.46pt x 530.98375pt>
+<images/phase3_stolen_cert_pop_bypass_client_fail.png, id=234, 658.46pt x 530.98375pt>
 File: images/phase3_stolen_cert_pop_bypass_client_fail.png Graphic file (type png)
 <use images/phase3_stolen_cert_pop_bypass_client_fail.png>
 Package pdftex.def Info: images/phase3_stolen_cert_pop_bypass_client_fail.png  used on input line 334.
 (pdftex.def)             Requested size: 231.29816pt x 186.51956pt.
-<images/phase3_stolen_cert_pop_bypass_mallory_fail.png, id=231, 659.46375pt x 531.9875pt>
+<images/phase3_stolen_cert_pop_bypass_mallory_fail.png, id=235, 659.46375pt x 531.9875pt>
 File: images/phase3_stolen_cert_pop_bypass_mallory_fail.png Graphic file (type png)
 <use images/phase3_stolen_cert_pop_bypass_mallory_fail.png>
 Package pdftex.def Info: images/phase3_stolen_cert_pop_bypass_mallory_fail.png  used on input line 340.
@@ -710,12 +710,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.18}) ha
                                                   \__shipout_drop_firstpage_...
 l.345 
        <./images/phase3_legitimate_client.png> <./images/phase3_legitimate_server.png> <./images/phase3_untrusted_cert_client_fail.png> <./images/phase3_untrusted_cert_mallory_fail.png>]
-<images/phase4_alice_e2e_init.png, id=247, 654.445pt x 530.98375pt>
+<images/phase4_alice_e2e_init.png, id=251, 654.445pt x 530.98375pt>
 File: images/phase4_alice_e2e_init.png Graphic file (type png)
 <use images/phase4_alice_e2e_init.png>
 Package pdftex.def Info: images/phase4_alice_e2e_init.png  used on input line 370.
 (pdftex.def)             Requested size: 231.29816pt x 187.66197pt.
-<images/phase4_bob_e2e_receive.png, id=248, 652.4375pt x 528.97626pt>
+<images/phase4_bob_e2e_receive.png, id=252, 652.4375pt x 528.97626pt>
 File: images/phase4_bob_e2e_receive.png Graphic file (type png)
 <use images/phase4_bob_e2e_receive.png>
 Package pdftex.def Info: images/phase4_bob_e2e_receive.png  used on input line 376.
@@ -731,12 +731,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.20}) ha
                                                   \__shipout_drop_firstpage_...
 l.381 
        <./images/phase3_stolen_cert_pop_bypass_client_fail.png> <./images/phase3_stolen_cert_pop_bypass_mallory_fail.png>]
-<images/phase4_server_blind_relay_1.png, id=257, 660.4675pt x 531.9875pt>
+<images/phase4_server_blind_relay_1.png, id=261, 660.4675pt x 531.9875pt>
 File: images/phase4_server_blind_relay_1.png Graphic file (type png)
 <use images/phase4_server_blind_relay_1.png>
 Package pdftex.def Info: images/phase4_server_blind_relay_1.png  used on input line 389.
 (pdftex.def)             Requested size: 231.29816pt x 186.30394pt.
-<images/phase4_server_blind_relay_2.png, id=258, 654.445pt x 526.96875pt>
+<images/phase4_server_blind_relay_2.png, id=262, 654.445pt x 526.96875pt>
 File: images/phase4_server_blind_relay_2.png Graphic file (type png)
 <use images/phase4_server_blind_relay_2.png>
 Package pdftex.def Info: images/phase4_server_blind_relay_2.png  used on input line 395.
@@ -762,17 +762,17 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.24}) ha
                                                   \__shipout_drop_firstpage_...
 l.409 
        <./images/phase4_alice_e2e_init.png> <./images/phase4_bob_e2e_receive.png> <./images/phase4_server_blind_relay_1.png> <./images/phase4_server_blind_relay_2.png>]
-<images/phase5_server_rotations.png, id=273, 1284.8pt x 835.12pt>
+<images/phase5_server_rotations.png, id=277, 1284.8pt x 835.12pt>
 File: images/phase5_server_rotations.png Graphic file (type png)
 <use images/phase5_server_rotations.png>
 Package pdftex.def Info: images/phase5_server_rotations.png  used on input line 431.
 (pdftex.def)             Requested size: 361.40659pt x 234.91515pt.
-<images/phase5_alice_rotations.png, id=274, 1284.8pt x 835.12pt>
+<images/phase5_alice_rotations.png, id=278, 1284.8pt x 835.12pt>
 File: images/phase5_alice_rotations.png Graphic file (type png)
 <use images/phase5_alice_rotations.png>
 Package pdftex.def Info: images/phase5_alice_rotations.png  used on input line 440.
 (pdftex.def)             Requested size: 231.29816pt x 150.34059pt.
-<images/phase5_bob_rotations_and_chat.png, id=275, 1284.8pt x 835.12pt>
+<images/phase5_bob_rotations_and_chat.png, id=279, 1284.8pt x 835.12pt>
 File: images/phase5_bob_rotations_and_chat.png Graphic file (type png)
 <use images/phase5_bob_rotations_and_chat.png>
 Package pdftex.def Info: images/phase5_bob_rotations_and_chat.png  used on input line 446.
@@ -786,12 +786,12 @@ l.451
 pdfTeX warning (ext4): destination with the same identifier (name{figure.26}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.468 \end{document}
+l.475 \end{document}
                     
 pdfTeX warning (ext4): destination with the same identifier (name{figure.27}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.468 \end{document}
+l.475 \end{document}
                      <./images/phase5_alice_rotations.png> <./images/phase5_bob_rotations_and_chat.png>] (./report.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
@@ -802,21 +802,21 @@ L3 programming layer <2024-02-20>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 475414A5A4EBB591B3C6F7F4512532AA;7264.
+(rerunfilecheck)             Checksum: 038DAFC96BD2B8E0F82AB8E589EEB6E5;7358.
  ) 
 Here is how much of TeX's memory you used:
- 15325 strings out of 474116
- 241136 string characters out of 5743682
+ 15339 strings out of 474116
+ 241294 string characters out of 5743682
  1940187 words of memory out of 5000000
- 37280 multiletter control sequences out of 15000+600000
- 573166 words of font info for 147 fonts, out of 8000000 for 9000
+ 37284 multiletter control sequences out of 15000+600000
+ 573385 words of font info for 150 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,12n,79p,1079b,601s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on report.pdf (11 pages, 3174826 bytes).
+Output written on report.pdf (11 pages, 3177123 bytes).
 PDF statistics:
- 376 PDF objects out of 1000 (max. 8388607)
- 282 compressed objects within 3 object streams
- 95 named destinations out of 1000 (max. 500000)
- 35184 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 386 PDF objects out of 1000 (max. 8388607)
+ 292 compressed objects within 3 object streams
+ 99 named destinations out of 1000 (max. 500000)
+ 35192 words of extra memory for PDF output out of 35830 (max. 10000000)
 
